@@ -325,7 +325,7 @@
 
     async function fetchLeaveRequests() {
       try {
-        const response = await fetch('http://13.61.143.159:3053/api/leave-requests', {
+        const response = await fetch('http://13.49.224.11:3053/api/leave-requests', {
           method: 'GET',
           headers: { 'Content-Type': 'application/json' }
         });
@@ -340,7 +340,7 @@
 
     async function updateLeaveStatus(id, status) {
       try {
-        const response = await fetch(`http://13.61.143.159:3053/api/leave-requests/${id}`, {
+        const response = await fetch(`http://13.49.224.11:3053/api/leave-requests/${id}`, {
           method: 'PUT',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ status })
