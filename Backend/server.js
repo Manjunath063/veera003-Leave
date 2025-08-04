@@ -259,5 +259,5 @@ app.put('/api/leave-requests/:id', async (req, res) => {
 
 app.listen(port, async () => {
   await initializeDatabase();
-  console.log(`Server running at http://13.48.136.36:${port}`);
+  console.log(`Server running at http://13.61.148.17:${port}`);
 });
